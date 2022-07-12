@@ -127,18 +127,6 @@ void TreesAbove2m(GardenCentre *Garden[],int br){
     }
 }
 
-void TreeFunction(GardenCentre *Garden[],int br, string newName) {
-    for (int i = 0; i < br; i++)
-    {
-        if (Garden[i]->getName() == newName)
-        {
-            Garden[i]->display();
-        }
-        
-    }
-    
-}
-
 int main(){
     char Input = true;
     GardenCentre *Garden[100];
