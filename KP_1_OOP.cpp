@@ -101,6 +101,10 @@ void PriceOfMarriedAbove5(Guest Guests[], int brGuest, float price){
     }
 }
 
+void chechgit(Guest Guests[], int brGuest){
+    
+}
+
 int main(){
     string newCity;
     char Input = true;
